@@ -1,0 +1,96 @@
+#album{
+	width: 500px; /* largura do album*/
+	margin: 0 auto; /* espaçamento externo */
+	padding: 50px; /* espaçamento interno */
+	list-style: none; /* lista sem marcações */
+}
+
+#album li{
+	float: left; /* flutua a esquerda o item da lista */ 
+	width: 200px; /* largura do item da lista */
+	height: 200px; /* altura do item da lista */
+	margin: 10px; /* espaçamento externo do item da lista */
+	border: solid 5px; /* borda do item da lista */
+	background-color: #fff; 
+	box-shadow: 1px 1px 1px rgba(0,0,0, .4);
+}
+#album li span {
+	opacity: 0;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);  /* cor de fundo */
+	text-shadow: 1px 1px 1px #000; /* texto com sombra */
+	font-size: 9pt; /*tamanho da fonte */
+	line-height: 370px; /* altura da linha */
+	padding: 5px;
+}
+#album li:hover span {
+	opacity: 1;
+}
+
+#album li#foto1{
+	background:url("../_imagens/PROJ-DN1.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto1:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+#album li#foto2{
+	background:url("../_imagens/PROJ-DN2.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto2:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#foto3{
+	background:url("../_imagens/PROJ-DN3.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto3:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#foto4{
+	background:url("../_imagens/PROJ-DN4.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto4:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#foto5{
+	background:url("../_imagens/PROJ-DN5.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto5:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#album li#foto6{
+	background:url("../_imagens/PROJ-DN6.GIF");
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #fff;
+}
+#album li#foto6:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+

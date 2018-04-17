@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Veiculo do Futuro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/contato.css"/>   
+</head>
+<script src="main.js"></script>
+<body>
+<div id="interface">   
+        <header id="cabecalho">
+            <br/>  
+        <hgroup>
+        <h1>Veiculos Autonomos</h1><br/>  
+        <h2>Futuro: Elétrico Compartilhado Automatizado<h2>
+        </hgroup>
+        
+<nav id="menu">    
+    <h1>Menu Principal</h1>    
+        <ul type="circle">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="informacoes.html">Como Funciona</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+        </ul>    
+</nav>     
+    </header>
+<section id="corpo-full">  
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">  
+            <hgroup>
+                <h3>Fale conosco >Contato</h3>
+                <h1>Formulario de Contato</h1>
+                <h2>por: Daniel-Mateus-Sofia</h2>
+                <h3 class="direita">Atualizado em 16/Abril/2018</h3>
+            </hgroup>
+        </header> 
+        <form method="POST" id="fcontato" action="maito:daniel-silva00@outlook.com" oninput="cal_total();">
+                <fieldset id="usuario">
+                    <legend>Identificação do Usuário</legend>
+                            <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" placeholder="Digite o nome" /></p>
+                            <p><label for="csenha">Senha:</label><input type="password" name="tsenha" id="csenha" 
+                           placeholder="Digite a senha" /></p>
+                            <p><label for="cemail">E-mail:</label><input type="email" name="temail" id="cemail" placeholder="Digite o email"></p>
+                            <fieldset id="sexo"><legend>Sexo</legend>
+                                <input type="radio" name="tsexo" id="cmasc"> <label for="cmasc">Masculino</label><br/><br/>
+                                <input type="radio" name="tsexo" id="cfem"><label for="cfem">Feminino</label></fieldset>
+                            <p>Data de Nascimento <input type="date" name="tnasc" id="cnasc"></p>
+                </fieldset>
+                <fieldset id="endereco">    
+                    <legend>Endereço do Usuário</legend>
+                            <p><label for="clogradouro">Logradouro:</label><input type="text" name="tlogradouro" id="clogradouro" placeholder="Digite o endereço"/></p>
+                            <p><label for="cnumero">Número:</label><input type="number" name="nnumero" id="cnumero" min="0" max="9999" placeholder="Digite o numero da casa"></p>
+                            <p><label for="cest">Estado:<select name="test" id="cest">
+                            <optgroup label="Regiao sudeste">
+                                    <option value="SP">São Paulo</option>
+                                <option>Rio de Janeiro</option>
+                                <option>Minas Gerais</option>
+                                <option>Espirito Santo</option>
+                            </optgroup>
+                            <optgroup label="Regiao nordeste">
+                                <option>Bahia</option>
+                                <option>Pernambuco</option>
+                                <option>Sergipee</option>
+                            </optgroup>
+                            <optgroup label="Regiao sul">    
+                                <option>Santa Catarina</option>
+                                <option>Parana</option>
+                                <option>Rio Grande do Sul</option>
+                            </optgroup>    
+                                </select>
+                            </p>
+                            <p><label for="ccidade">Cidade:<input type="text" name="tcidade" id="ccidade" placeholder="Digite sua Cidade" list="cidades"></p>
+                                <datalist id="cidades">
+                                    <option value="Rio de Janeiro"></option>
+                                    <option value="Nova Iguaçu"></option>
+                                    <option value="Campinas"></option>
+                                    <option value="Carmo do Rio Clarao"></option>
+                                    <option value="Franca"></option>
+                                    <option value="Feira de Santana"></option>
+                                    <option value="Franco da Rocha"></option>
+                                </datalist>
+                
+                </fieldset>    
+                <fieldset id="mensagem">
+                    <legend>Mensagem do Usuário</legend>
+                            <p><label for="curg">Grau de Urgência:</label> Min<input type="range" name="turg" id="curg" min="0" max="10" step="2"/>Max</p>
+                           <p> <label for="cmsg">Mensagem:</label><textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Digite sua mensagem"></textarea></p>
+                </fieldset>            
+                
+                
+                <input type="image" name="tenviar" src="_imagens/enviar.png ">
+         </form>
+    </article>      
+</section>  
+
+
+    <footer id="rodape">
+
+            <p>Copyright 2018 &copy; - by Daniel-Mateus-Sofia<br/>
+                <a href="https://en.wikipedia.org/wiki/Autonomous_car" target="_blank">| Wikipédia</a> | <a href="http://google.com.br" target="_blank"></a></p>
+            </footer>
+        </div>
+    </body>            

@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<style>
+			body{
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 10pt;
+			}
+			p {
+				text-align: justify;
+				text-indent: 20px;
+				color: #fff;
+			}		
+			article{
+				margin-bottom: 800px; /* espaçamento externo embaixo */
+			}
+			article h1{
+				font-size: 15pt;
+				color: #fff;
+				background-color: rgba(0,0,0,.3);
+				padding-left: 5px;
+				margin: 0px; 
+			}
+			article h2{
+				font-size: 13pt;
+				color: rgb(255, 255, 255);
+				margin-bottom: 0px;
+				text-indent: 30%;
+			}
+			#radar{
+				width: 870px;
+			}
+			#lidar{
+				height: 400px;
+				width: 450px
+			}
+		</style>
+	</head>	
+<body>
+	<article id="topo">
+		<header>
+			<h2> Clique sobre as áreas que estão em vermelho </h2>
+		</header>	
+	</article>
+	<article id="radares">	
+		<header>
+			<h1> Radar </h1>
+		</header>
+		<p>
+		O Radar mede a distância do carro até possíveis obstáculos, podendo assim evitá-los.
+		</p>
+		<img id="radar" src="_imagens/radar_01.jpg"/>
+	</article>		
+	<article id="sensorlidar">
+		<header>
+			<h1> Sensor LiDAR </h1>
+		</header>	
+		<img id="lidar" src="_imagens/lidarunit.png"/>
+		<p>
+			Constantemente girando, utiliza lasers para gerar uma imagem em 360 graus em volta do carro.
+		</p>
+	</article>	
+	<article id="camera"> 
+		<header>
+			<h1> Câmeras </h1>
+		</header>	
+		<p>
+			Usa uma grande quantidade de imagens para encontrar a distância até vários objetos. As câmeras dos carros autônomos também detectam placas, semáforos e ajuda reconhecer pessoas.
+		</p>
+		<img src="_imagens/camera.jpg"/>
+	</article>
+	<article id="outrosensorlidar"> 
+		<header>
+			<h1> Outros sensores LiDAR </h1>
+			<p>
+				Tem as mesmas funções que os outros sensores, sendo que auxiliam um a outro a gerar as imagens em 360 graus.
+			</p>
+	</article>
+</body>
